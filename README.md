@@ -8,8 +8,8 @@ statements developed for [RightsStatements.org](http://rightsstatements.org/).
 More information about the motivation and implementation of these statements
 can be found in the following white papers:
 
-* [Recommendations for Standardized International Rights Statements](http://rightsstatements.org/en/documentation/rights-statements-white-paper/)
-* [Requirements for the Technical Infrastructure for Standardized International Rights Statements](http://rightsstatements.org/en/documentation/technical-white-paper/)
+* [Recommendations for Standardized International Rights Statements](https://rightsstatements.org/en/documentation/rights-statements-white-paper/)
+* [Requirements for the Technical Infrastructure for Standardized International Rights Statements](https://rightsstatements.org/en/documentation/technical-white-paper/)
 
 The rights statements are currently implemented as a [SKOS](http://www.w3.org/2004/02/skos/)
 vocabulary serialized in [Turtle](http://www.w3.org/TR/turtle/).
@@ -28,7 +28,7 @@ The current rights statements are located in [`rights-statements.ttl`](rights-st
 Implementing translations
 ---
 
-[Transifex](https://www.transifex.com/graphthinking-gmbh/rightsstatementsorg/) is used to carry out translations of the statements and collections. They are tagged with the category `data-model`. Please get in touch with the [maintainers](https://www.transifex.com/graphthinking-gmbh/rightsstatementsorg/settings/maintainers/) to add a new language to the project.
+[Transifex](https://explore.transifex.com/rightsstatements-org/rightsstatementsorg/) is used to carry out translations of the statements and collections. They are tagged with the category `data-model`. Please get in touch with the maintainers to add a new language to the project.
 
 To incorporate updates or new translations, install [`tx`](https://docs.transifex.com/client/introduction), run [`tx pull`](https://docs.transifex.com/client/pull#command-options) and commit the changes into your local clone (the tx client needs an API token available in your Transifex account settings). This needs to be done for all repositories where there are translations (data-model, etc). The language of the translation being pulled can be specified in a parameter (otherwise the selection can be done in the commit from local to master reference).
 
